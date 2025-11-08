@@ -12,7 +12,7 @@ st.write("Exploratoryy analysis of CO₂ emissions across African countries and 
 #Loading the dataset
 st.cache_data
 def load_data():
-    df = pd.read_csv("co2 Emission Africa.csv")
+    df = pd.read_csv("co2_Emission_Africa.csv")
     return df
 
 df = load_data()
