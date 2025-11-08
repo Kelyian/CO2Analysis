@@ -12,8 +12,7 @@ st.write("Exploratoryy analysis of CO₂ emissions across African countries and 
 #Loading the dataset
 st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/KelyianSankei/C02Analysis/master/co2%20Emissions%20Africa.csv"
-    df = pd.read_csv(url)
+    df = pd.read_csv("co2 Emission Africa.csv")
     return df
 
 df = load_data()
